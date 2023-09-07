@@ -1,0 +1,17 @@
+<html>
+    <title></title>
+    <head></head>
+    <link rel="stylesheet" href="css/style.css">
+    <body>
+        {{>header}}
+        <h1>{{h1}} File Created by {{name}}</h1>
+        <p>Enter Location</p>
+        <form>
+            <input type="text" placeholder="Enter Location" id="location">
+            <button>Search</button>
+        </form>
+        <p id="forecast"></p>
+        {{>footer}}
+        <script src="js/script.js"></script>
+    </body>
+</html>
