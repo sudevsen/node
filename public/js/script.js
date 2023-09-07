@@ -1,4 +1,3 @@
-console.log("js working")
 let weatherForm = document.querySelector("form")
 const search = document.querySelector("#location")
 weatherForm.addEventListener('submit',(e)=>{
